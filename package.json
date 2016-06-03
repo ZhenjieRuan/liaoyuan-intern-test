@@ -1,0 +1,26 @@
+{
+  "name": "liaoyuan-test",
+  "version": "1.0.0",
+  "description": "Intern test for liaoyuan",
+  "main": "main.js",
+  "dependencies": {
+    "babel-plugin-transform-flow-strip-types": "^6.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ZhenjieRuan/liaoyuan-intern-test.git"
+  },
+  "keywords": [
+    "liaoyuan"
+  ],
+  "author": "Zhenjie Ruan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ZhenjieRuan/liaoyuan-intern-test/issues"
+  },
+  "homepage": "https://github.com/ZhenjieRuan/liaoyuan-intern-test#readme"
+}
