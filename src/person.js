@@ -1,3 +1,0 @@
-/* @flow */
-
-'use strict'

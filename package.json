@@ -8,11 +8,13 @@
     "babel-plugin-transform-flow-strip-types": "^6.8.0",
     "babel-preset-es2015": "^6.0.0",
     "csv": "^1.1.0",
-    "csvtojson": "^0.5.14"
+    "csvtojson": "^0.5.14",
+    "json2csv": "^3.4.2",
+    "readline-sync": "^1.4.2"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "babel-node --presets es2015 build/main.js"
+    "run": "babel-node --presets es2015 build/main.js"
   },
   "repository": {
     "type": "git",

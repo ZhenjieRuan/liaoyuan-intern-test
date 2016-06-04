@@ -91,9 +91,12 @@ This project implements the functionality specified above, also using flow stati
 checker for static code analysis, source files are in the src directory, and the runnable
 version(type stripped) is in build folder.
 
+### Logic:
+All employee info is abstracted out in Employee class, so the main function can just parse the csv file and throw whatever data it got into the Employee class and request income details. This makes the program extensible because when you have new data to consider you can just add handler into the Employee class without modify the api exposed to main program.
+
 ### Instruction :
-Make sure you have installed nodejs > 4.0 and npm. To run the program :
+Make sure you have installed node >= 6.2.0 and npm >= 3.8.9. To run the program :
 ```
 npm install
-node build/main.js
+npm run
 ```
