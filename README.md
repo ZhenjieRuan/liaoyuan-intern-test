@@ -98,5 +98,5 @@ All employee info is abstracted out in Employee class, so the main function can 
 Make sure you have installed node >= 6.2.0 and npm >= 3.8.9. To run the program :
 ```
 npm install
-npm run
+npm test
 ```

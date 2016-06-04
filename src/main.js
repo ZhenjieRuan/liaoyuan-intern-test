@@ -67,6 +67,10 @@ parse_csv(DS_PATH + '本市职工月平均工资.csv', (err, result: Array<JSONO
   while (!finished) {
     var flag = false;
     var mode = readline.question('Enter auto to automatically read csv file for employee info, or enter manual to manually input info, or exit to quit:\n');
+    if (mode === 'exit') {
+      finished = true;
+      return console.log('\nTHank you for using!');
+    }
     var to_csv = readline.question('Export to CSV(yes, no): ');
     if (to_csv === 'yes') {
       flag = true;
@@ -93,9 +97,6 @@ parse_csv(DS_PATH + '本市职工月平均工资.csv', (err, result: Array<JSONO
         return console.log('\nThank you for using!');
       });
       finished = true;
-    } else if (mode === 'exit') {
-      finished = true;
-      return console.log('\nTHank you for using!');
     } else {
       console.log('\nError, mode not supported\n');
     }
